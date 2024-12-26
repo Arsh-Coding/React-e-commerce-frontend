@@ -1,0 +1,95 @@
+.subs-container {
+  position: relative;
+  top: 5vw;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.subscription-box {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 20px 40px;
+  width: 80%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subs-heading {
+  width: 30vw;
+  font-size: 25px;
+}
+.subscription-content {
+  display: flex;
+  /* width: 75%; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subscription-content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subscription-form {
+  display: grid;
+  /* flex-direction: row; */
+  gap: 10px;
+  align-items: center;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper .icon {
+  position: absolute;
+  left: 10px;
+  font-size: 1.2rem;
+}
+
+.subscription-input {
+  padding: 10px 10px 10px 35px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  width: 300px;
+}
+
+.subscription-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscription-button:hover {
+  background-color: #ddd;
+}
+@media only screen and (max-width: 600px) {
+  .subs-container {
+    display: flex;
+  }
+  .subscription-box {
+    display: grid;
+  }
+  .subs-heading {
+    width: 100%;
+    font-size: 35px;
+  }
+  .subscription-input,
+  .subscription-button {
+    width: 120vw;
+    min-height: 10vh;
+  }
+}

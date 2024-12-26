@@ -16,6 +16,7 @@
   text-align: left;
   font-size: 70px;
   font-weight: 800;
+  color: black;
 }
 .right-container {
   display: grid;
@@ -85,11 +86,12 @@
   }
   .left-container,
   .right-container {
-    width: 80%;
+    width: 100%;
   }
   .left-container h1 {
-    font-size: 40px;
-    font-weight: 700;
+    max-width: 600px;
+    font-size: 70px;
+    font-weight: 800;
   }
   .heroImage {
     margin-top: 50px;

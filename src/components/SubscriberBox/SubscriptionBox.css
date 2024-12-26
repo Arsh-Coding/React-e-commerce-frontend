@@ -20,6 +20,9 @@
   width: 30vw;
   font-size: 25px;
 }
+.subs-heading h2 {
+  color: white;
+}
 .subscription-content {
   display: flex;
   /* width: 75%; */
